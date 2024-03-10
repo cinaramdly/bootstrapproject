@@ -338,24 +338,40 @@ header .menu nav .minibox:hover a {
   border: 7px solid #dfe0e1;
 }
 #team .box .textbox {
+  margin: 25px 0;
   text-align: center;
 }
 #team .box .textbox h2 {
   font-size: 25px;
 }
 #team .box .textbox h3 {
+  margin: 8px 0 20px;
+  font-size: 17px;
   color: #5f6c78;
 }
 #team .box .textbox ul {
   display: flex;
+  justify-content: center;
 }
-#team .box .textbox ul .icon {
-  border-radius: 100%;
-  font-size: 24px;
-  background-color: #000000;
-  margin-left: 10px;
-  padding: 10px;
-}
-#team .box .textbox ul .icon i {
+#team .box .textbox ul li {
   color: white;
+  margin: 0 10px;
+  background-color: #212529;
+  border-radius: 50%;
+  padding: 20px;
+  width: 10px;
+  height: 10px;
+}
+#team .box .textbox ul li .icon {
+  font-size: 14px;
+  margin: -7px;
+}
+#team .minibox {
+  width: 650px;
+}
+#team .minibox h5 {
+  line-height: 1.5;
+  font-family: math;
+  font-size: 18px;
+  color: #5f6c78;
 }/*# sourceMappingURL=style.css.map */
