@@ -1,12 +1,10 @@
 #team
     background-color: #f8f9fa
+    h1,h2,h3,h4
+        cursor: text
     .textbox
-        h1,h2
-            font-family: sans-serif
-            font-weight: 700
-        h3,h4
-            font-family: math
         h1
+            font-weight: 700
             font-size: 40px
             margin-bottom: 20px
         h4
@@ -21,11 +19,12 @@
             border-radius: 100%
             border: 7px solid #dfe0e1
         .textbox
-            margin: 25px 0
+            margin-top: 25px
             text-align: center
             h2
                 font-size: 25px
             h3
+                font-weight: 700
                 margin: 8px 0 20px
                 font-size: 17px
                 color: #5f6c78
@@ -33,6 +32,7 @@
                 display: flex
                 justify-content: center
                 li
+                    cursor: pointer
                     color: #ffff
                     margin: 0 10px
                     background-color: #212529
@@ -43,10 +43,12 @@
                     .icon
                         font-size: 14px
                         margin: -7px
+                &:hover
+                    li
+                        opacity: 0.8
     .minibox
         width: 650px
         h5
             line-height: 1.5
-            font-family: math
             font-size: 18px
             color: #5f6c78

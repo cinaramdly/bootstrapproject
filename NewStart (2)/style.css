@@ -314,14 +314,11 @@ header .menu nav .minibox:hover a {
 #team {
   background-color: #f8f9fa;
 }
-#team .textbox h1, #team .textbox h2 {
-  font-family: sans-serif;
-  font-weight: 700;
-}
-#team .textbox h3, #team .textbox h4 {
-  font-family: math;
+#team h1, #team h2, #team h3, #team h4 {
+  cursor: text;
 }
 #team .textbox h1 {
+  font-weight: 700;
   font-size: 40px;
   margin-bottom: 20px;
 }
@@ -338,13 +335,14 @@ header .menu nav .minibox:hover a {
   border: 7px solid #dfe0e1;
 }
 #team .box .textbox {
-  margin: 25px 0;
+  margin-top: 25px;
   text-align: center;
 }
 #team .box .textbox h2 {
   font-size: 25px;
 }
 #team .box .textbox h3 {
+  font-weight: 700;
   margin: 8px 0 20px;
   font-size: 17px;
   color: #5f6c78;
@@ -354,6 +352,7 @@ header .menu nav .minibox:hover a {
   justify-content: center;
 }
 #team .box .textbox ul li {
+  cursor: pointer;
   color: white;
   margin: 0 10px;
   background-color: #212529;
@@ -366,12 +365,14 @@ header .menu nav .minibox:hover a {
   font-size: 14px;
   margin: -7px;
 }
+#team .box .textbox ul:hover li {
+  opacity: 0.8;
+}
 #team .minibox {
   width: 650px;
 }
 #team .minibox h5 {
   line-height: 1.5;
-  font-family: math;
   font-size: 18px;
   color: #5f6c78;
 }/*# sourceMappingURL=style.css.map */
