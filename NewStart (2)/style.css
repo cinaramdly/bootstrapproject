@@ -375,4 +375,20 @@ header .menu nav .minibox:hover a {
   line-height: 1.5;
   font-size: 18px;
   color: #5f6c78;
+}
+
+#image {
+  padding: 30px 0;
+}
+#image .image {
+  width: 200px;
+}
+#image .google {
+  width: 120px;
+}
+#image .facebook {
+  width: 170px;
+}
+#image .ibm {
+  width: 100px;
 }/*# sourceMappingURL=style.css.map */
